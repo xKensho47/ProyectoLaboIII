@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.title{
+    position: relative;    
+}
+.title h1{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    vertical-align: middle;
+    line-height: 100%;
+    text-align: center;
+}
+.capitulo{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+}
+.capitulo__img{
+    display: inline-block;
+    margin: 2%;
+}
+.capitulo__netflix{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 2%;
+}
+.capitulo__netflix a{
+    /* text-decoration: none; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+.capitulo__netflix a:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 15px #fff;
+}
+.capitulo__netflix a:link{
+    color: #fff;
+}
+.capitulo__netflix a:visited{
+    color: #333;
+}
+.capitulo:hover{
+    border: 5px solid #333;
+    border-radius: 30px;
+    box-shadow: 1px 3px 15px 0 #fff;
+}
+
+.galeria{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+}
+.galeria h2{
+    text-align: justify;
+    font-size: 2rem;
+    color: #fff;
+}
+.galeria__imagenes{
+    display: inline-flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    height: 100%;
+}

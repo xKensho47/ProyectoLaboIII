@@ -1,0 +1,73 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 1.5rem;
+    background-image: url(../../history/images/00-background.jpg);
+    background-size: cover;
+    color: rgb(165, 126, 71);
+}
+.articulo__info{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 54%;
+    height: 100vh;
+    
+    font-size: 24px;
+    text-shadow: 2px 4px 15px rgb(93, 71, 40);
+    text-align: center;
+    font-weight: 700;
+    line-height: 2rem;
+    -webkit-text-stroke: 2px black;
+}
+.articulo__info h3{
+    margin: 7%;
+    font-size: 50px;
+}
+.articulo__info p{
+    font-size: 24px;
+    line-height: 2rem;
+}
+
+.main .boton{
+    display: inline-block;
+    z-index: 600;
+}
+.main .boton a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: rgb(93, 44, 39);
+    color: rgb(55, 46, 51);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    -webkit-text-stroke: .5px black;
+}
+.main .boton a:hover{
+    background-color: rgb(55, 46, 51);
+    color: rgb(93, 44, 39);}
+
+#articulo__video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh; 
+}
+#articulo__video h3{
+    margin: 7%;
+    font-size: 40px;
+}

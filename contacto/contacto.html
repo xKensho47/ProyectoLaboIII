@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+</head>
+<body>
+    
+    <header>
+        <a href="../index.html"><img class="logo1" src="../images/logo.png" alt="logo"></a>
+        <button id="abrir" class="icono-abrir"><i class="fa fa-bars"></i></button>
+
+        <nav class="menu" id="menu">
+            <button id="cerrar" class="icono-cerrar"><i class="fa fa-bars"></i></button>
+            <ul class="menu__lista">
+                <li class="menu__item">Lista de capítulos
+                    <ul class="menu__submenu">
+                        <li><a href="../capitulos/acto-1.html">Acto I</a></li>
+                        <li><a href="../capitulos/acto-2.html">Acto II</a></li>
+                        <li><a href="../capitulos/acto-3.html">Acto III</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item">Personajes
+                    <ul class="menu__submenu">
+                        <li><a href="../personajes/personajes.html#vi">Vi</a></li>
+                        <li><a href="../personajes/personajes.html#jinx">Jinx</a></li>
+                        <li><a href="../personajes/personajes.html#vander">Vander</a></li>
+                        <li><a href="../personajes/personajes.html#jayce">Jayce</a></li>
+                        <li><a href="../personajes/personajes.html#viktor">Viktor</a></li>
+                        <li><a href="../personajes/personajes.html#mel">Mel</a></li>
+                        <li><a href="../personajes/personajes.html#caitlyn">Caitlyn</a></li>
+                        <li><a href="../personajes/personajes.html#silco">Silco</a></li>
+                        <li><a href="../personajes/personajes.html#heimerdinger">Heimerdinger</a></li>
+                        <li><a href="../personajes/personajes.html#ekko">Ekko</a></li>
+                        <li><a href="../personajes/personajes.html#marcus">Marcus</a></li>
+                        <li><a href="../personajes/personajes.html#singed">Singed</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item">
+                    <a href="../segunda_temporada/segunda_temporada.html">Temporada 2</a>
+                </li>
+                <li class="menu__item">Más información</a>
+                    <ul class="menu__submenu">
+                        <li><a href="../info/info.html#info-general">General</a></li>
+                        <li><a href="../info/info.html#sinopsis">Sinópsis</a></li>
+                        <li><a href="../info/info.html#reparto">Reparto</a></li>
+                        <li><a href="../info/info.html#banda-sonora">Banda sonora</a></li>
+                        <li><a href="../info/info.html#documentales">Documentales</a></li>
+                        <li><a href="../info/info.html#criticas">Críticas</a></li>
+                        <li><a href="../info/info.html#rank">Ranking</a></li>
+                        <li><a href="../info/info.html#premios">Premios</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item">
+                    <a href="../contacto/contacto.html">Contacto</a>                    
+                </li>
+            </ul>        
+        </nav>
+    </header>
+
+    <main class="main">
+        
+            <div class="contact_form">
+                <div class="formulario">			
+                    <h1>Formulario de contacto</h1>
+                    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>        
+                    <form action="submeter-formulario.php" method="post">
+                        <p>
+                            <label for="nombre" class="colocar_nombre">Nombre
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>                                    
+                        <p>
+                            <label for="email" class="colocar_email">Email
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>                                
+                        <p>
+                            <label for="telefone" class="colocar_telefono">Teléfono
+                            </label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                        </p>                                    
+                        <p>
+                            <label for="website" class="colocar_website">Sitio web
+                            </label>
+                            <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                        </p>                                    
+                        <p>
+                            <label for="asunto" class="colocar_asunto">Asunto
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                        </p>                                    
+                        <p>
+                            <label for="mensaje" class="colocar_mensaje">Mensaje
+                                <span class="obligatorio">*</span>
+                            </label>                     
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                        </p>	  								
+                    
+                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                        <p class="aviso">
+                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>                                
+                    </form>
+                </div>	
+            </div>
+        
+    </main>
+
+    <footer>
+        <div>
+            <a href="#"><img src="../images/redes/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="../images/redes/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="../images/redes/twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="../images/redes/youtube.svg" alt="Youtube"></a>
+            <a href="#"><img src="../images/redes/spotify.svg" alt="Spotify"></a>
+        </div>
+    </footer>
+
+</body>
+</html>

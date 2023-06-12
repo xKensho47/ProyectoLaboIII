@@ -1,0 +1,184 @@
+.main{
+    background-color: #000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+    top: 50px;
+    margin-bottom: 5%;
+}
+/* GENERAL */
+.info, .sinopsis, .reparto, .banda-sonora, .documentales, .criticas, .rank, .premios{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: space-evenly;
+    padding: 3%;
+    width: 90%;
+    margin: 2.5%;
+    
+    position: relative;
+    top: 0;
+    background-color: #fff;
+
+    border: 5px solid #aaa;
+    border-radius: 50px;
+    box-shadow: 1px 2px 20px 0 #bbb;
+}
+/* INFORMACION */
+.info__info{
+    padding: 3%;
+    color: #000;
+    width: 50%;
+}
+.info__title{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2.5%;
+}
+.info__lista{
+    line-height: 1.5rem;
+    text-align: justify;
+    list-style: none;
+}
+.info__imagen{
+    width: 50%;
+}
+.info__imagen img{
+    width: 100%;
+    height: 100%;    
+}
+/* SINOPSIS */
+.sinopsis div{
+    text-align: center;
+}
+.sinopsis div h2{
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+.sinopsis div p{
+    text-align: justify;
+    font-size: 1.4rem;
+    font-weight: .8rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* REPARTO */
+.reparto{
+    flex-direction: row;
+}
+.reparto__reparto{
+    padding: 3%;
+    color: #000;
+    width: 50%;
+}
+.reparto h2{
+    font-size: 2rem;
+    margin: 2.5%;
+}
+.reparto__lista{
+    line-height: 1.5rem;
+    text-align: justify;
+    list-style: none;
+}
+.reparto__imagen{
+    width: 50%;
+}
+.reparto__imagen img{
+    width: 100%;
+    height: 100%;    
+}
+/* BANDA SONORA */
+.banda-sonora{
+    display: inline-flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: row;
+}
+.banda-sonora__info{
+    text-align: center;
+    width: 50%;
+}
+.banda-sonora__info h2{
+    font-size: 1.4rem;
+}
+.banda-sonora__info p{
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: .2rem;
+    padding: 5%;
+}
+.banda-sonora__info iframe{
+    margin: 0;
+    width: 90%;    
+}
+.banda-sonora__imagen{
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.banda-sonora__imagen img{
+    width: 100%;
+    height: 100%;
+}
+
+/* DOCUMENTALES */
+.documentales__documentales{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.documentales__documentales h3{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 2%;
+}
+.documentales__principal{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    margin: 3% 0;
+}
+.documentales__principal iframe{
+    padding: 5%;
+}
+
+.documentales__secundario{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url(../images/Animacion_de_Arcane_optimized.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    width: 100%;
+    height: 65vh;
+}
+.documentales__secundario h3{
+    display: inline-block;
+    background-color: #fff;
+    font-size: 2rem;
+}
+/* CRITICAS, RANKING, PREMIOS */
+.criticas ul, .rank ul, .premios ul{
+    list-style: none;
+    text-align: start;
+}
+.criticas h2, .rank h2, .premios h2{
+    font-size: 2rem;
+}
+.criticas li, .rank li, .premios li{
+    font-size: 1.15rem;
+    margin: .5%;
+    width: 100%;
+}
