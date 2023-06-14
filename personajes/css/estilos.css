@@ -4,13 +4,30 @@
     align-items: center;
 
     position: relative;
-    top: 70px;
+    top: 50px;
 
     font-size: 0.75rem;
     text-align: justify;
     color: #fff;
 
     height: 100%;
+
+    margin-bottom: 50px;
+}
+.personajes{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+.personajes article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .imagen{
     margin: 2.5%;
@@ -27,4 +44,10 @@
     padding: 2%;
     font-size: 1.2rem;
     width: 50%;
+}
+
+@media screen and (max-width: 576px) {
+    .descripcion{
+        font-size: 0.7rem;
+    }
 }

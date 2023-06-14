@@ -71,3 +71,16 @@
     margin: 7%;
     font-size: 40px;
 }
+
+@media screen and (max-width: 576px) {
+    .articulo__info{
+        width: 100%;
+        padding: 5%;
+    }
+    .articulo__video h3{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}

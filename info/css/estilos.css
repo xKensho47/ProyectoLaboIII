@@ -1,26 +1,29 @@
 .main{
-    background-color: #000;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+    display: inline-block;
+    width: 100%;
     position: relative;
     top: 50px;
-    margin-bottom: 5%;
+    margin-bottom: 50px;
+    
+    background-color: #000;
+}
+.general{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
 /* GENERAL */
 .info, .sinopsis, .reparto, .banda-sonora, .documentales, .criticas, .rank, .premios{
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: space-evenly;
     padding: 3%;
     width: 90%;
     margin: 2.5%;
-    
-    position: relative;
-    top: 0;
+
     background-color: #fff;
 
     border: 5px solid #aaa;
@@ -181,4 +184,20 @@
     font-size: 1.15rem;
     margin: .5%;
     width: 100%;
+}
+
+@media screen and (max-width: 576px){
+    .main{
+        width: 200vw;
+        border: 3px solid red;
+    }
+    .criticas, .rank, .premios{
+        flex-direction: column;
+    }
+    .documentales__principal h3{
+        font-size: 1.2rem;
+    }
+    .documentales__principal iframe{
+        width: 420px;
+    }
 }

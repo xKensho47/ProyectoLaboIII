@@ -86,3 +86,30 @@
 
     height: 100%;
 }
+
+@media screen and (max-width: 576px){
+    .principal{
+        flex-direction: column;
+    }
+    .capitulo{
+        width: 100%;
+        
+    }
+    .capitulo__netflix a{
+        font-size: 1.2rem;
+    }
+    .capitulo__descripcion{
+        font-size: 0.9rem;
+    }
+    /* GALERIA */
+    .galeria{
+        display: block;
+        top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .galeria h2{
+        text-align: center;
+    }
+    
+}
