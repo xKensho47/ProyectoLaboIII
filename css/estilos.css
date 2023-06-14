@@ -411,6 +411,10 @@ footer img{
         top: 50px;
         margin-bottom: 7%;
     }
+    .boton-2{
+        position: relative;
+        top: 150px;
+    }
     footer{
         display: inline-flex;
         width: 120vw;
