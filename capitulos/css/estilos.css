@@ -74,7 +74,9 @@
     height: 100%;
 }
 .galeria h2{
-    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
     font-size: 2rem;
     color: #fff;
 }
