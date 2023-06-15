@@ -7,38 +7,14 @@
 }
 .history1{
     background-image: url(../images/00-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100vh;
 }
 .history2{
     background-image: url(../images/01-piltover.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100vh;
 }
 .history3{
     background-image: url(../images/02-zaun.jpg);
+}
+.history1, .history2, .history3{
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -53,6 +29,7 @@
     width: 100%;
     height: 100vh;
 }
+
 .history__container{
     font-size: 24px;
     text-shadow: 2px 4px 15px rgb(93, 71, 40);
@@ -65,4 +42,12 @@
 .history__container h3{
     margin: 7%;
     font-size: 50px;
+}
+
+@media screen and (max-width: 576px) {
+    .history__container{
+        width: 100%;
+        padding: 5%;
+        font-size: 1.2rem;
+    }
 }

@@ -189,7 +189,6 @@
 @media screen and (max-width: 576px){
     .main{
         width: 200vw;
-        border: 3px solid red;
     }
     .criticas, .rank, .premios{
         flex-direction: column;
