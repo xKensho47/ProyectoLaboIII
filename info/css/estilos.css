@@ -187,16 +187,58 @@
 }
 
 @media screen and (max-width: 576px){
-    .main{
-        width: 200vw;
+    .general section{
+        display: inline-flex;
+        flex-direction: column;
+        font-size: .9rem;
     }
-    .criticas, .rank, .premios{
+    .main article section div{
+        width: 100%;
+    }
+    .sinopsis div h2{
+        font-size: 2rem;
+    }
+    .sinopsis div p{
+        font-size: 1rem;
+    }
+    .banda-sonora{
         flex-direction: column;
     }
-    .documentales__principal h3{
+    .banda-sonora__imagen{      
+        margin: 5%;  
+        padding: 20px;
+        border-radius:initial;
+    }
+    .banda-sonora__imagen img{
+        width: 100%;
+        height: 100%;
+    }
+    .documentales{
+        padding: 0;
+    }
+    .documentales__documentales{
+        flex-direction: column;
+        padding: 3%;
+        width: 100%;
+    }
+    .documentales__principal{
+        flex-direction: column;
+    }
+    .documentales__secundario{
+        background-size: cover;
+    }
+    .documentales__secundario iframe{
+        width: 80%;
+        height: 45%;
+    }
+
+    .criticas h2, .rank h2, .premios h2{
+        text-align: center;
         font-size: 1.2rem;
     }
-    .documentales__principal iframe{
-        width: 420px;
+    .criticas li, .rank li, .premios li{
+        font-size: .75rem;
+        margin: .5%;
+        width: 100%;
     }
 }

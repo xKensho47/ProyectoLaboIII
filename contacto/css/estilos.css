@@ -123,5 +123,7 @@ p{
 }
 
 @media screen and (max-width: 576px){
-
+	.contact_form{
+		top: -50px;
+	}
 }
