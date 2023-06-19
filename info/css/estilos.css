@@ -173,6 +173,9 @@
     font-size: 2rem;
 }
 /* CRITICAS, RANKING, PREMIOS */
+.criticas, .rank, .premios{
+    flex-direction: column;
+}
 .criticas ul, .rank ul, .premios ul{
     list-style: none;
     text-align: start;

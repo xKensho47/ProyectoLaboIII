@@ -1,15 +1,16 @@
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    gap: 70px;
 }
 .principal{
     display: inline-flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 100vh;
+    height: auto;
 
     background-color: rgb(0, 0, 0);
     color: white;
