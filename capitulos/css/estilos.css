@@ -73,7 +73,6 @@
     top: 0;
     left: 0;
     width: 90%;
-    height: 100%;
 }
 .galeria h2{
     display: inline-block;
@@ -85,12 +84,11 @@
 .galeria__imagenes{
     display: inline-flex;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-
-    height: 100%;
+    padding: 2%;
+    gap: 25px;
 }
-
 @media screen and (max-width: 576px){
     .principal{
         flex-direction: column;
