@@ -15,7 +15,7 @@
     width: 100%;
 }
 /* GENERAL */
-.info, .sinopsis, .reparto, .banda-sonora, .documentales, .criticas, .rank, .premios{
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
