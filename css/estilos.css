@@ -475,4 +475,7 @@ footer img{
     .trailers__iframe{
         height: auto;
     }
+    footer div{
+        width: 100%;
+    }
 } 
